@@ -1,0 +1,143 @@
+.ai-career {
+  width: 100%;
+  padding: 60px 24px;
+  background-color: #2d2f31;
+  color: #fff;
+}
+
+.ai-career-container {
+  max-width: 1340px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  border-radius: 24px;
+}
+
+.ai-career-content {
+  padding-right: 40px;
+}
+
+.ai-career-content h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0 0 24px 0;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.ai-career-content > p {
+  font-size: 18px;
+  color: #fff;
+  margin: 0 0 32px 0;
+  line-height: 1.5;
+  opacity: 0.9;
+}
+
+.ai-features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.ai-feature {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.ai-feature svg {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 50%;
+}
+
+.ai-cta-button {
+  background-color: #fff;
+  color: #1c1d1f;
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+  margin-bottom: 16px;
+}
+
+.ai-cta-button:hover {
+  background-color: #e8e9eb;
+}
+
+.ai-pricing {
+  font-size: 14px;
+  color: #fff;
+  margin: 0;
+  opacity: 0.8;
+}
+
+.ai-career-image {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.ai-career-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+@media (max-width: 968px) {
+  .ai-career-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .ai-career-content {
+    padding-right: 0;
+  }
+
+  .ai-career-content h2 {
+    font-size: 32px;
+  }
+
+  .ai-career-content > p {
+    font-size: 16px;
+  }
+
+  .ai-features {
+    grid-template-columns: 1fr;
+  }
+
+  .ai-career-image {
+    height: 400px;
+  }
+}
+
+@media (max-width: 640px) {
+  .ai-career {
+    padding: 40px 16px;
+  }
+
+  .ai-career-content h2 {
+    font-size: 24px;
+  }
+
+  .ai-career-content > p {
+    font-size: 14px;
+  }
+
+  .ai-career-image {
+    height: 300px;
+  }
+}
